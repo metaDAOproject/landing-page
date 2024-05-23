@@ -52,6 +52,11 @@ const Root = styled(motion.div)`
       ${theme.breakpoints.down('xl')} {
         font-size: 10vw;
       }
+
+      a {
+        all: unset;
+        cursor: pointer;
+      }
     }
   }
 

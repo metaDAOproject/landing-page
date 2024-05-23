@@ -15,7 +15,7 @@ const IntroRoot = styled(motion.div)(() => {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100vw;
+    right: 0;
     height: 100vh;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 1);
