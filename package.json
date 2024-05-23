@@ -1,0 +1,37 @@
+{
+  "name": "metadao-landing-page",
+  "description": "Landing page for MetaDAO",
+  "author": "Jac0xb.sol",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@types/lodash": "^4.14.202",
+    "beautiful-react-hooks": "^5.0.1",
+    "framer-motion": "^11.0.5",
+    "lodash": "^4.17.21",
+    "lottie-web": "^5.12.2",
+    "next": "^14.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lottie-player": "^2.0.0",
+    "react-responsive": "^10.0.0",
+    "styled-breakpoints": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "~5.3.0"
+  },
+  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
+}
