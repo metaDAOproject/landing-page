@@ -129,7 +129,7 @@ export default function SectionTwo({ sceneState }: { sceneState: SceneState }) {
           </Link>
         </div>
       </div>
-      <div className="nav-group">
+      {/* <div className="nav-group">
         <div className="nav-item">
           <Link href="https://vota.fi/">
             <div className="title">Vota</div>
@@ -139,7 +139,7 @@ export default function SectionTwo({ sceneState }: { sceneState: SceneState }) {
             </div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </Root>
   );
 }

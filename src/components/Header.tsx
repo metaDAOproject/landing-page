@@ -210,7 +210,7 @@ export function Header() {
       </motion.button>
       <NavButton>Learn</NavButton>
       <NavButton>Govern</NavButton>
-      <NavButton>Vota</NavButton>
+      {/* <NavButton>Vota</NavButton> */}
     </HeaderStyled>
   );
 }

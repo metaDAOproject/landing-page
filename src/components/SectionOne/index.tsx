@@ -52,11 +52,6 @@ const Root = styled(motion.div)`
       ${theme.breakpoints.down('xl')} {
         font-size: 10vw;
       }
-
-      a {
-        all: unset;
-        cursor: pointer;
-      }
     }
   }
 
@@ -67,7 +62,7 @@ const Root = styled(motion.div)`
     bottom: 10%;
     left: 5vw;
     font-size: 2.5vw;
-    z-index: 10;
+    z-index: 100;
 
     ${theme.breakpoints.down('lg')} {
       font-size: 4vw;
@@ -172,18 +167,13 @@ export default function SectionTwo({
             /> */}
           </Link>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           className="nav"
           variants={navItemVariants}
           whileHover={{ scale: 1.1, transformOrigin: 'right' }}
         >
           <Link href="https://vota.fi/">Vota</Link>
-          {/* <HoverableLottie
-              animationData={VotaHover}
-              startReversed={false}
-              segments={[139 + 33, 210 + 139 + 33]}
-            /> */}
-        </motion.div>
+        </motion.div> */}
       </motion.div>
       <motion.div
         className="slogan"

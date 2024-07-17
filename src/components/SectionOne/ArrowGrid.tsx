@@ -39,7 +39,6 @@ export const Grid = styled(motion.div)<{
       height: 500vh;
       pointer-events: none;
       z-index: 5;
-      filter: blur(32px);
     }
   `
 );
