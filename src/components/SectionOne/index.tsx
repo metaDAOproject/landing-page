@@ -41,7 +41,7 @@ const Root = styled(motion.div)`
     z-index: 10;
 
     .nav {
-      font-family: 'TT Firs Neue Trial', sans-serif;
+      font-family: 'missingfont', sans-serif;
       font-weight: bold;
       color: #ff4b4b;
       font-size: 5vw;
@@ -57,7 +57,7 @@ const Root = styled(motion.div)`
 
   .slogan {
     position: absolute;
-    font-family: 'TT Firs Neue Trial', sans-serif;
+    font-family: 'missingfont', sans-serif;
     font-weight: normal;
     bottom: 10%;
     left: 5vw;

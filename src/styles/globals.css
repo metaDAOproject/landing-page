@@ -62,15 +62,15 @@ a {
 }
 
 @font-face {
-  font-family: 'TT Firs Neue Trial';
-  src: url('/fonts/TT Firs Neue Trial Bold.ttf') format('truetype');
+  font-family: 'missingfont';
+  src: url('/fonts/missingfont.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'TT Firs Neue Trial';
-  src: url('/fonts/TT Firs Neue Trial Regular.ttf') format('truetype');
+  font-family: 'missingfont';
+  src: url('/fonts/missingfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

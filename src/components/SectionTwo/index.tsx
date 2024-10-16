@@ -21,7 +21,7 @@ const Root = styled(motion.div)`
     gap: 2.5%;
     margin: 5vw 0;
 
-    font-family: 'TT Firs Neue Trial', sans-serif;
+    font-family: 'missingfont', sans-serif;
     font-weight: normal;
 
     .market {
@@ -77,7 +77,7 @@ const Root = styled(motion.div)`
       }
 
       .title {
-        font-family: 'TT Firs Neue Trial', sans-serif;
+        font-family: 'missingfont', sans-serif;
         font-weight: bold;
         font-size: 1em;
         color: #ff4b4b;
@@ -90,7 +90,7 @@ const Root = styled(motion.div)`
       }
 
       .description {
-        font-family: 'TT Firs Neue Trial', sans-serif;
+        font-family: 'missingfont', sans-serif;
         font-weight: normal;
         font-size: 0.5em;
         color: #ff4b4b;

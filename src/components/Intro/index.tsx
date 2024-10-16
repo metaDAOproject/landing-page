@@ -39,7 +39,7 @@ const IntroRoot = styled(motion.div)(() => {
       .left {
         position: relative;
         margin: 0 5%;
-        font-family: 'TT Firs Neue Trial', sans-serif;
+        font-family: 'missingfont', sans-serif;
         font-weight: normal;
         display: flex;
         flex-direction: column;
@@ -71,7 +71,7 @@ const IntroRoot = styled(motion.div)(() => {
           height: 20%;
           transform: skewY(0deg);
 
-          font-family: 'TT Firs Neue Trial', sans-serif;
+          font-family: 'missingfont', sans-serif;
           font-weight: normal;
         }
       }
